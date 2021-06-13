@@ -1,5 +1,5 @@
 ---
-title: "Dato climáticos de Liberia"
+title: "Datos climáticos de Liberia"
 output: html_document
 ---
 ```{r setup, include=FALSE}
@@ -135,7 +135,7 @@ Evap<- ggplot(inp_ren,aes(x= Evaporación))+
   ylab("m.m")+
   theme_ipsum()
 ```
-### Unir todos los gráficos
+### Visualizar los histogramas
 ```{r fig.width=15, fig.height=10}
 grid.arrange(Temp, Hume, vie, LlU, Irra, Evap)
 ```
