@@ -114,8 +114,8 @@ LlU<- ggplot(inp_ren,aes(x= Lluvia))+
   ylab("m.m")+
   theme_ipsum()
 
+#Irradiación
 Irra<- ggplot(inp_ren,aes(x= Irradiación))+
-  
   geom_histogram (binwidth = 9 ,
                   color = "red",
                   fill = "yellow") +
@@ -125,7 +125,7 @@ Irra<- ggplot(inp_ren,aes(x= Irradiación))+
   ylab("m.m")+
   theme_ipsum()
 
-
+#Evapotranspiración
 Evap<- ggplot(inp_ren,aes(x= Evaporación))+
   geom_histogram (binwidth= 2 ,
                   color = "black",
