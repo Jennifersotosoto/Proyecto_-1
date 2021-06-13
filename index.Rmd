@@ -70,6 +70,7 @@ inp_ren<- inp_N %>%
 
 ## Histogramas
 ```{r}
+#Temperatura
 Temp<-ggplot(inp_ren,aes(x= Temperatura))+
   geom_histogram (binwidth= 1,
                   color = "red",
